@@ -4,6 +4,17 @@
     font-family:'digital-clock-font';
     src: url('./fonts/DS-DIGI.TTF');
    }
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 15vw;
+    height: auto;
+    align-self: center;
+    filter: invert(93%) sepia(0%) saturate(7500%) hue-rotate(32deg) brightness(106%) contrast(109%);
+}
 
 body {
     display: flex;
@@ -15,6 +26,7 @@ body {
     padding: 5vw;
     display: grid;
     width: 40vw;
+    padding-top: 0;
 }
 
 .flex-container {
