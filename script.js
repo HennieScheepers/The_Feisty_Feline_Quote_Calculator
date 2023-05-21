@@ -13,7 +13,7 @@ const handleCalculate = (event) => {
     const daysPrice = days * 500
     //Extracted size value
     let sizeValue
-    const fullFramePrice = 200
+    const fullFramePrice = 200 * 2
     switch (size) {
         case '1/4 frame' : sizeValue = 0.25
                             break
