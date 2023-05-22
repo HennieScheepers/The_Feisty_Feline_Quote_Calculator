@@ -67,6 +67,7 @@ select, input {
     justify-content: right;
     display: flex;
     align-items: center;
+    margin-bottom: 3vw;
 }
 
 h1 {
