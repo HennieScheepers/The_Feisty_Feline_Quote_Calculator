@@ -42,6 +42,7 @@ const handleCalculate = (event) => {
     const output = document.querySelector('[data-output]')
     output.innerHTML = `<h1 class="heading">${priceWithVat}</h1>`
 
+    window.scrollTo(0,0)
 }
 
 /**
