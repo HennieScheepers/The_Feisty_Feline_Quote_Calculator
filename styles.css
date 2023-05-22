@@ -1,9 +1,12 @@
+/*Import of google font*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/*Import of custom digital font face*/
 @font-face{
     font-family:'digital-clock-font';
     src: url('./fonts/DS-DIGI.TTF');
    }
+
 .img-container {
     display: flex;
     justify-content: center;

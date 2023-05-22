@@ -15,6 +15,7 @@ const handleCalculate = (event) => {
     const largeWoolValue = woolLargeElement.value
     const smallWoolValue = woolSmallElement.value
     const days = daysElement.value
+    //Calculation for total daily wage
     const daysPrice = days * 500
     //Extracted size value
     let sizeValue
@@ -29,6 +30,7 @@ const handleCalculate = (event) => {
                             break
         case 'full frame' : sizeValue = 1
     }
+    //Calculation for cost of frame size used
     const sizePrice = fullFramePrice * sizeValue
 
     const smallWoolPrice = 24 * smallWoolValue
@@ -67,6 +69,7 @@ const handleClear = () => {
     output.innerHTML = ``
 }
 
+//Assignment of event handlers
 const calculateButton = document.querySelector('[data-calculate-button]')
 calculateButton.addEventListener('click', handleCalculate)
 
