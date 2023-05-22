@@ -49,6 +49,7 @@ body {
     border-radius: 5px;
     border-style: solid;
     border-color: white;
+    border-width: 2px;
 }
 
 .wool-container, .button-container {
