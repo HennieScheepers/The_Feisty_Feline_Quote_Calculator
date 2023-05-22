@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     width: 50vw;
     padding-top: 0;
+    border-radius: 5px;
 }
 
 .flex-container {
