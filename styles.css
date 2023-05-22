@@ -100,6 +100,7 @@ select {
     color: white;
     font-size: 1.5vw;
     margin: 0.3vw;
+    width: 98%;
 }
 
 label {
@@ -116,6 +117,7 @@ input {
     border-radius: 5px;
     font-size: 1.5vw;
     color: white;
+    width: 94%;
 }
 
 button {
@@ -202,7 +204,7 @@ button {
     }
 
     button, input {
-        width: 96%;
+        width: 98%;
         height: 6vh;
         font-size: 3vw;
     }
