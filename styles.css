@@ -129,6 +129,7 @@ button {
     font-size: 1.5vw;
 }
 
+/*Tablet Design*/
 @media screen and (max-width: 840px) {
     .main-container {
         padding: 5vw;
@@ -149,14 +150,17 @@ button {
 
     select {
         height: 5vh;
-        width: 100%;
+        width: 98%;
         font-size: 2vw;
     }
 
     button, input {
-        width: 96%;
         height: 4vh;
         font-size: 2vw;
+    }
+
+    input {
+        width: 96%;
     }
 
     label {
@@ -168,6 +172,7 @@ button {
     }
   }
 
+/*Mobile Design*/
 @media screen and (max-width: 414px) {
     .main-container {
         padding: 5vw;
@@ -204,9 +209,12 @@ button {
     }
 
     button, input {
-        width: 98%;
         height: 6vh;
         font-size: 3vw;
+    }
+
+    input {
+        width: 98%;
     }
 
     label {
