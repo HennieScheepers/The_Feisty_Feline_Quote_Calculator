@@ -46,10 +46,10 @@ body {
 }
 
 .size-container, .wool-container, .complexity-container, .button-container {
-    background-color: #ff48a5;;
+    background-color: #ff48a5;
     padding: 1vw;
     width: 19vw;
-    height: 16vw;
+    height: 18vw;
     border-radius: 5px;
     border-style: solid;
     border-color: white;
@@ -68,6 +68,7 @@ body {
 
 select, input {
     width: 15vw;
+    font-family: 'Pacifico', cursive;
 }
 
 .output-container {
@@ -80,7 +81,7 @@ select, input {
     display: flex;
     align-items: center;
     margin-bottom: 3vw;
-    color: black;
+    color: #ff48a5;
 }
 
 h1 {
@@ -130,6 +131,7 @@ button {
     border-style: none;
     border-radius: 5px;
     font-size: 1.5vw;
+    color: #ff48a5;
 }
 
 /*Tablet Design*/
