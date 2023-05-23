@@ -95,7 +95,7 @@ h3 {
 }
 
 select {
-    height: 3vw;
+    height: 4vw;
     background-color: #ff48a5;;
     border-radius: 5px;
     border-color: white;
@@ -122,6 +122,7 @@ input {
     font-size: 1.5vw;
     color: white;
     width: 94%;
+    height: 3vw;
 }
 
 button {
@@ -146,7 +147,7 @@ button {
     .size-container, .wool-container, .complexity-container, .button-container {
         padding: 1vw;
         width: 30vw;
-        height: 30vw;
+        height: 35vw;
     }
 
     .logo {
@@ -203,7 +204,7 @@ button {
     .size-container, .wool-container, .complexity-container, .button-container {
         padding: 2vw;
         width: 75vw;
-        height: 50vw;
+        height: 55vw;
         margin-top: 2vh;
     }
 
