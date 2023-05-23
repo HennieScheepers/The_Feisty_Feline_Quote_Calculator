@@ -203,19 +203,19 @@ button {
     .size-container, .wool-container, .complexity-container, .button-container {
         padding: 2vw;
         width: 75vw;
-        height: 45vw;
+        height: 50vw;
         margin-top: 2vh;
     }
 
     select {
         height: 7vh;
         width: 100%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     button, input {
         height: 6vh;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     input {
@@ -223,10 +223,18 @@ button {
     }
 
     label {
-        font-size: 4vw;
+        font-size: 5vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+    
+    .output-container {
+        height: 15vw;
     }
 
     h3 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
